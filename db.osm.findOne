@@ -1,0 +1,10 @@
+db.osm.findOne(
+{ 
+    "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                        -101.8387236,
+                        35.1917304
+                ]
+        }
+})
